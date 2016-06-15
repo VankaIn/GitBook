@@ -42,7 +42,7 @@ class People(){
     this.gognju = gongju;
   }  
   
-  public void setGongJu(){
+  public void setGongJu(String gongju){
     this.gongju = gongju
   }
 
@@ -62,7 +62,9 @@ class People(){
 main {
   People xiaomi = new People("qiche");
   xiaomi.goWork(); 
-  
+  //换单车？
+  xiaomi.setGongJu("danche");
+  xiaomi.goWork;
   
 }
 ```
