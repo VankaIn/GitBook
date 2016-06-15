@@ -94,12 +94,13 @@ class People(){
   public People(String gongju){
     this.gognju = gongju;
   }    
-}
-
+  
 //peopel 上班的方法
 public void goWork(){
     gongju.go();
 }
+}
+
 ```
 
 ```
