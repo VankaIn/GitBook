@@ -84,6 +84,7 @@ class JiaoTongGongJu{
 ```
 
  ```
+ //peopel 上班的方法
 class People(){
   public JiaoTongGongJu gongJu;
 
