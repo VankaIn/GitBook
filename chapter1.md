@@ -53,5 +53,6 @@ main {
 
 
 > 但是上面的用字符串表示不好，例如<br>
-> People xiaomi = new People("qichi");
+> People xiaomi = new People("qichi");<br>
+> 这样一时打错了，程序就没输出了，小明就没去上班了，哈哈哈， 所以优化一下
 
