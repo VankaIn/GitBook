@@ -26,7 +26,7 @@
     public String gongJu;
   
     public People(String gongju){
-      this.JiaoTongGongJu = gongju;
+      this.gognju = gongju;
     }
   
     public void goWork(){
