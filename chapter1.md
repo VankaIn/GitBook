@@ -53,6 +53,7 @@ public void goWork(){
 ```
 
 ```
+//主方法
 main {
   People xiaomi = new People("qiche");
   xiaomi.goWork(); 
