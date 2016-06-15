@@ -86,14 +86,6 @@ class JiaoTongGongJu{
   };
 }
 ```
-
-```
-//交通工具类
-class Danche extend JiaoTongGongJu{
-
-}
-```
-
 ```
 //peopel 类
 class People(){
