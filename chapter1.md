@@ -8,7 +8,7 @@
   ```
   class People(){
     public void goWork(){
-      println("踩单车 - 每秒20km/h");
+      println("单车 - 每秒20km/h");
     }
   }
   ```
@@ -46,9 +46,9 @@ class People(){
 //peopel 上班的方法
 public void goWork(){
   if(gongju == "danche"){
-      println("踩单车 - 每秒20km/h");
+      println("单车 - 每秒20km/h");
   } else if(gongju == "qiche"){
-       println("开汽车 - 每秒60km/h");
+       println("汽车 - 每秒60km/h");
   }
 }
 ```
@@ -80,17 +80,14 @@ class JiaoTongGongJu{
   public JiaoTongGongJu(int sudu){
     this.sudu = sudu;
   } 
+  
+  public void go();
 }
 ```
 
 ```
 //交通工具类
 class Danche extend JiaoTongGongJu{
-  int sudu;
-  
-  public JiaoTongGongJu(int sudu){
-    this.sudu = sudu;
-  } 
 }
 ```
 
