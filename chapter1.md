@@ -43,6 +43,7 @@ class People(){
   }    
 }
 
+//peopel 上班的方法
 public void goWork(){
   if(gongju == "danche"){
       println("踩单车 - 每秒20km/h");
@@ -76,7 +77,7 @@ main {
 class JiaoTongGongJu{
   int sudu;
   
-  public People(int sudu){
+  public JiaoTongGongJu(int sudu){
     this.sudu = sudu;
   } 
 }
@@ -90,9 +91,7 @@ class People(){
     this.gognju = gongju;
   }    
 }
- ```
 
-```
 public void goWork(){
   if(gongju == "danche"){
       println("踩单车 - 每秒20km/h");
