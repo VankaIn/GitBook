@@ -112,5 +112,8 @@ main {
   People xiaomi = new People(qiche);
   xiaomi.goWork(); 
   
+  //以后想换单车？
+  JiaoTongGongJu danche = new JiaoTongGongJu(60);
+  
 }
 ```
