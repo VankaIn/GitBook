@@ -52,6 +52,6 @@ main {
 ```
 
 
-> 但是上面的用字符串表示不好，例如
+> 但是上面的用字符串表示不好，例如</br>
 > People xiaomi = new People("qichi");
 
