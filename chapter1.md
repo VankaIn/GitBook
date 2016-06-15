@@ -95,10 +95,10 @@ class People(){
     this.gognju = gongju;
   }    
   
-//peopel 上班的方法
-public void goWork(){
-    gongju.go();
-}
+  //peopel 上班的方法
+  public void goWork(){
+      gongju.go();
+  }
 }
 
 ```
