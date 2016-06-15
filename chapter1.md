@@ -71,6 +71,12 @@ main {
 
 
 *程序设计3
+```
+class JiaoTongGongJu{
+  int sudu;
+}
+```
+
  ```
 class People(){
   public JiaoTongGongJu gongJu;
