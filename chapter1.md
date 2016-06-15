@@ -85,7 +85,7 @@ class JiaoTongGongJu{
 
 ```
 //交通工具类
-class JiaoTongGongJu{
+class Danche extend JiaoTongGongJu{
   int sudu;
   
   public JiaoTongGongJu(int sudu){
