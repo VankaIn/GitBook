@@ -73,7 +73,7 @@ main {
 *程序设计3
  ```
 class People(){
-  public String gongJu;
+  public JiaoTongGongJu gongJu;
 
   public People(String gongju){
     this.gognju = gongju;
