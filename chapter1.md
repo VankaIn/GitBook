@@ -27,8 +27,7 @@
   
     public People(String gongju){
       this.gognju = gongju;
-    }
-        
+    }    
   }
  ```
     
