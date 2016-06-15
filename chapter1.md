@@ -115,5 +115,6 @@ main {
   //以后想换单车？
   JiaoTongGongJu danche = new JiaoTongGongJu(40);
   xiaomi.setGongJu(danche);
+  xiaomi.goWork(); 
 }
 ```
