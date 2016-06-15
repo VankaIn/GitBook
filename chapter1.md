@@ -98,11 +98,7 @@ class People(){
 
 //peopel 上班的方法
 public void goWork(){
-  if(gongju == "danche"){
-      println("踩单车 - 每秒20km/h");
-  } else if(gongju == "qiche"){
-       println("开汽车 - 每秒60km/h");
-  }
+  gongju.go();
 }
 ```
 
