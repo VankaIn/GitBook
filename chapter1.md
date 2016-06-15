@@ -23,9 +23,9 @@
 
  ```
   class People(){
-    public JiaoTongGongJu;
+    public String jiaoTongGongJu;
   
-    public People(JiaoTongGongJu gongju){
+    public People(String gongju){
       this.JiaoTongGongJu = gongju;
     }
   
