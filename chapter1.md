@@ -72,10 +72,11 @@ main {
 
 *程序设计3
 ```
+//交通工具类
 class JiaoTongGongJu{
   int sudu;
   
-  public People(int gongju){
+  public People(int sudu){
     this.sudu = sudu;
   } 
 }
