@@ -33,22 +33,22 @@
 * 程序设计二：
 
 
- ```
- //peopel 类
+```
+//peopel 类
 class People(){
   public String gongJu;
 
   public People(String gongju){
     this.gognju = gongju;
-  }    
-}
+  }  
 
-//peopel 上班的方法
-public void goWork(){
-  if(gongju == "danche"){
+  //peopel 上班的方法
+  public void goWork(){
+    if(gongju == "danche"){
       println("每秒20km/h前进");
-  } else if(gongju == "qiche"){
-       println("每秒60km/h前进");
+    } else if(gongju == "qiche"){
+      println("每秒60km/h前进");
+    }
   }
 }
 ```
@@ -100,7 +100,6 @@ class People(){
       gongju.go();
   }
 }
-
 ```
 
 ```
