@@ -74,6 +74,10 @@ main {
 ```
 class JiaoTongGongJu{
   int sudu;
+  
+  public People(int gongju){
+    this.sudu = sudu;
+  } 
 }
 ```
 
