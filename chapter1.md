@@ -64,3 +64,30 @@ main {
 > People xiaomi = new People("qichi");<br>
 > 这样一时打错了，程序就没输出了，小明就没去上班了，哈哈哈， 所以优化一下。于是我们用一个类来代替代表交通工具，而不是 String
 
+*程序设计3
+ ```
+class People(){
+  public String gongJu;
+
+  public People(String gongju){
+    this.gognju = gongju;
+  }    
+}
+ ```
+
+```
+public void goWork(){
+  if(gongju == "danche"){
+      println("踩单车 - 每秒20km/h");
+  } else if(gongju == "qiche"){
+       println("开汽车 - 每秒60km/h");
+  }
+}
+```
+
+```
+main {
+  People xiaomi = new People("qiche");
+  xiaomi.goWork(); 
+}
+```
