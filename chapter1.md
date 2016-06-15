@@ -84,6 +84,17 @@ class JiaoTongGongJu{
 ```
 
 ```
+//交通工具类
+class JiaoTongGongJu{
+  int sudu;
+  
+  public JiaoTongGongJu(int sudu){
+    this.sudu = sudu;
+  } 
+}
+```
+
+```
 //peopel 类
 class People(){
   public JiaoTongGongJu gongJu;
