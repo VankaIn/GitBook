@@ -62,10 +62,10 @@ class People(){
 main {
   People xiaomi = new People("qiche");
   xiaomi.goWork(); 
+  
   //换单车？
   xiaomi.setGongJu("danche");
   xiaomi.goWork;
-  
 }
 ```
 
