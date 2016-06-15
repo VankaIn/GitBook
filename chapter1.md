@@ -1,1 +1,1 @@
-# First Chapter
+# Strategy - 策略模式
