@@ -8,7 +8,7 @@
   ```
   class People(){
     public void goWork(){
-      println("单车 - 每秒20km/h");
+      println("每秒20km/h前进");
     }
   }
   ```
@@ -46,9 +46,9 @@ class People(){
 //peopel 上班的方法
 public void goWork(){
   if(gongju == "danche"){
-      println("单车 - 每秒20km/h");
+      println("每秒20km/h前进");
   } else if(gongju == "qiche"){
-       println("汽车 - 每秒60km/h");
+       println("每秒60km/h前进");
   }
 }
 ```
@@ -88,6 +88,7 @@ class JiaoTongGongJu{
 ```
 //交通工具类
 class Danche extend JiaoTongGongJu{
+
 }
 ```
 
