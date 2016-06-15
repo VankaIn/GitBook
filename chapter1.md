@@ -34,6 +34,7 @@
 
 
  ```
+ //peopel 类
 class People(){
   public String gongJu;
 
