@@ -22,13 +22,13 @@
 ###场景2.小明有钱了，买了台汽车，现在上班速度为60km/s 了
 
  ```
-  class People(){
-    public String gongJu;
-  
-    public People(String gongju){
-      this.gognju = gongju;
-    }    
-  }
+class People(){
+  public String gongJu;
+
+  public People(String gongju){
+    this.gognju = gongju;
+  }    
+}
  ```
 
 ```
