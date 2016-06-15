@@ -25,9 +25,15 @@
   class People(){
     public JiaoTongGongJu;
   
+    public People(JiaoTongGongJu gongju){
+      this.JiaoTongGongJu = gongju;
+    }
+  
     public void goWork(){
       println("踩单车 - 每秒20km/h");
     }
+    
+    
   }
   ```
   ```
