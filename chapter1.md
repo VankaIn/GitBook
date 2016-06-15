@@ -28,9 +28,10 @@
     public People(String gongju){
       this.gognju = gongju;
     }
+        
+  }
  ```
     
- ```
     public void goWork(){
       if(gongju == "danche"){
           println("踩单车 - 每秒20km/h");
@@ -38,9 +39,8 @@
            println("开汽车 - 每秒60km/h");
       }
     }
-    
-  }
-  ```
+
+
   ```
   main {
     People xiaomi = new People("qiche");
