@@ -30,19 +30,20 @@
     }    
   }
  ```
-    
-    public void goWork(){
+
+```
+      public void goWork(){
       if(gongju == "danche"){
           println("踩单车 - 每秒20km/h");
       } else if(gongju == "qiche"){
            println("开汽车 - 每秒60km/h");
       }
     }
+```
 
-
-  ```
+ ```
   main {
     People xiaomi = new People("qiche");
     xiaomi.goWork(); 
   }
-  ```
+ ```
