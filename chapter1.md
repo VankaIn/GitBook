@@ -81,7 +81,9 @@ class JiaoTongGongJu{
     this.sudu = sudu;
   } 
   
-  public void go(){};
+  public void go(){
+    print（"每秒 sudu km/h前进"）；
+  };
 }
 ```
 
