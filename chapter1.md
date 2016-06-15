@@ -95,6 +95,10 @@ class People(){
     this.gognju = gongju;
   }    
   
+  public void setGongJu(){
+  
+  }
+  
   //peopel 上班的方法
   public void goWork(){
       gongju.go();
