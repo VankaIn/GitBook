@@ -50,3 +50,8 @@ main {
   xiaomi.goWork(); 
 }
 ```
+
+
+> 但是上面的用字符串表示不好，例如
+> People xiaomi = new People("qichi");
+
