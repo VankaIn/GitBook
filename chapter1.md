@@ -81,7 +81,7 @@ class JiaoTongGongJu{
     this.sudu = sudu;
   } 
   
-  public void go();
+  public void go(){};
 }
 ```
 
