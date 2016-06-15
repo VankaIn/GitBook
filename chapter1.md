@@ -15,6 +15,6 @@
   ```
   main {
     People xiaomi = new People();
-    xiaomi.trafic = 
+    xiaomi.goWork(); 
   }
   ```
