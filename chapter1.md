@@ -41,9 +41,9 @@ public void goWork(){
 }
 ```
 
- ```
-  main {
-    People xiaomi = new People("qiche");
-    xiaomi.goWork(); 
-  }
- ```
+```
+main {
+  People xiaomi = new People("qiche");
+  xiaomi.goWork(); 
+}
+```
