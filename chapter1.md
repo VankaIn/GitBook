@@ -98,7 +98,7 @@ class People(){
 
 //peopel 上班的方法
 public void goWork(){
-  gongju.go();
+    gongju.go();
 }
 ```
 
