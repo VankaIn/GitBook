@@ -83,8 +83,8 @@ class JiaoTongGongJu{
 }
 ```
 
- ```
- //peopel 上班的方法
+```
+//peopel 类
 class People(){
   public JiaoTongGongJu gongJu;
 
@@ -93,6 +93,7 @@ class People(){
   }    
 }
 
+//peopel 上班的方法
 public void goWork(){
   if(gongju == "danche"){
       println("踩单车 - 每秒20km/h");
