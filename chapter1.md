@@ -6,6 +6,13 @@
 * 程序设计
 
   ```
+  class People(){
+    public void goWork(){
+      println("踩单车 - 每秒20km/h");
+    }
+  }
+  ```
+  ```
   main {
     People xiaomi = new People();
     xiaomi.trafic = 
