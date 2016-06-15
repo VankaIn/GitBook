@@ -23,7 +23,7 @@
 
  ```
   class People(){
-    public String jiaoTongGongJu;
+    public String gongJu;
   
     public People(String gongju){
       this.JiaoTongGongJu = gongju;
