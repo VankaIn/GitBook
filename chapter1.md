@@ -36,11 +36,12 @@
            println("开汽车 - 每秒60km/h");
       }
     }
+    
   }
   ```
   ```
   main {
-    People xiaomi = new People();
+    People xiaomi = new People("qiche");
     xiaomi.goWork(); 
   }
   ```
