@@ -113,7 +113,7 @@ main {
   xiaomi.goWork(); 
   
   //以后想换单车？
-  JiaoTongGongJu danche = new JiaoTongGongJu(60);
+  JiaoTongGongJu danche = new JiaoTongGongJu(40);
   
 }
 ```
