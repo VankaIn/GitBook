@@ -41,6 +41,10 @@ class People(){
   public People(String gongju){
     this.gognju = gongju;
   }  
+  
+  public void setGongJu(){
+    this.gongju = gongju
+  }
 
   //peopel 上班的方法
   public void goWork(){
@@ -58,6 +62,8 @@ class People(){
 main {
   People xiaomi = new People("qiche");
   xiaomi.goWork(); 
+  
+  
 }
 ```
 
