@@ -91,12 +91,12 @@ class JiaoTongGongJu{
 class People(){
   public JiaoTongGongJu gongJu;
 
-  public People(String gongju){
+  public People(JiaoTongGongJu gongju){
     this.gognju = gongju;
   }    
   
-  public void setGongJu(){
-  
+  public void setGongJu(JiaoTongGongJu gongju){
+    this.gongju = gongju;
   }
   
   //peopel 上班的方法
