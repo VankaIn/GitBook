@@ -105,7 +105,8 @@ class People(){
 ```
 main {
   JiaoTongGongJu qiche = new JiaoTongGongJu(60);
-  People xiaomi = new People("qiche");
+  People xiaomi = new People(qiche);
   xiaomi.goWork(); 
+  
 }
 ```
