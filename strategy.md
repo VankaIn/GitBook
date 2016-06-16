@@ -5,6 +5,10 @@
 * 程序设计1
 
 ```
+/**
+ * Created by liangjunjie on 16/6/16.
+ * 排序工具
+ */
 public class DataSorter {
 
     public static void sort(int[] a) {
@@ -22,8 +26,6 @@ public class DataSorter {
         a[x] = a[y];
         a[y] = temp;
     }
-
-
 
 }
 ```
