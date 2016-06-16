@@ -245,6 +245,7 @@ public class DataSorter {
 ```
 /**
  * Created by liangjunjie on 16/6/16.
+ * cat 实现接口 Comparable
  */
 public class Cat implements Comparable<Cat>{
     public Cat(String name, int weight) {
