@@ -326,6 +326,7 @@ public class Cat implements Comparable<Cat>{
 ```
 /**
  * Created by liangjunjie on 16/6/16.
+ * 比较器
  */
 public interface Comparator {
     int compare(Object o1, Object o2);
