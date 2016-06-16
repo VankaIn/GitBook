@@ -165,10 +165,15 @@ public class DataSorter {
 ---
 
 ###场景3.现在我需要对猫的名字的长度进行排序，就是 实现结果为：（himit2 ,kitty, tony）,要求设计成更下次改回对猫的体重修改的时候，要能改 DataSort修改。
-* 程序设计
+* 程序设计3
 
 ```
-
+/**
+ * Created by liangjunjie on 16/6/16.
+ */
+public interface Comparable<T> {
+    int compareTo(T o);
+}
 ```
 
 
