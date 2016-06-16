@@ -567,7 +567,7 @@ public class CatNameComparator implements Comparator<Cat> {
 ```
 /**
  * Created by liangjunjie on 16/6/16.
- * 排序工具
+ * 排序工具， 修改了这个关键类
  */
 public class  DataSorter {
     public static <T extends Comparable<? super T>> void sort(T[] a, Comparator<T> comparator) {
