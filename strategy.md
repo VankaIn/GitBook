@@ -471,6 +471,7 @@ public class MainActivity extends Activity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         tv = (TextView) findViewById(R.id.tv_content);
+        //修改这里
         CatNameComparator nameComparator = new CatNameComparator();
         //数组创建
         Cat kitty = new Cat("kitty", 3, nameComparator);//kitty，3kg，1year
