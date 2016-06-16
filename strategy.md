@@ -227,7 +227,7 @@ public class DataSorter {
             for(int j=0; j<i-1; j++) {
                 Comparable o1 = a[j];
                 Comparable o2 = a[j+1];
-                if(o1.compareTo(o2) > 1) {
+                if(o1.compareTo(o2) == 1) {
                     swap(a, j , j+1);
                 }
             }
