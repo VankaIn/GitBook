@@ -281,4 +281,36 @@ public class Cat implements Comparable<Cat>{
 
 > 改到到这里，你会发现这样的更改，以后更排序方式，不要对 cat 的名字长度排序，而是改回之前对体重进行排序，DataSort 真的不用进行修改，只要对 **Cat** 类的 **compareTo(Cat o)** 方法进行一下修改，就可以回到按体重排序。
 
+```
+/**
+ * Created by liangjunjie on 16/6/16.
+ */
+public class Cat implements Comparable<Cat>{
+    public Cat(String name, int weight) {
+        this.name = name;
+        this.weight = weight;
+    }
+
+    public String name;
+    public int weight;
+
+    @Override
+    public String toString() {
+        return "name-" + name + " weight-" + weight;
+    }
+
+    @Override
+    public int compareTo(Cat o) {
+        //改这里
+        if (this.weight > o.weight) {
+            return 1;
+        } else if (this.weight < o.weight) {
+            return -1;
+        } else {
+            return 0;
+        }
+    }
+}
+```
+
 
