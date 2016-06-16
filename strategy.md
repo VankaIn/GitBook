@@ -164,4 +164,4 @@ public class DataSorter {
 
 ---
 
-###场景3.现在我需要对猫的名字的长度进行排序，就是 实现结果为：（himit2 ,kitty, tomy）
+###场景3.现在我需要对猫的名字的长度进行排序，就是 实现结果为：（himit2 ,kitty, tony）
