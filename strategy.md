@@ -115,5 +115,22 @@ public class MainActivity extends Activity{
 }
 ```
 
+```
+public class Cat {
+    public Cat(String name, int weight) {
+        this.name = name;
+        this.weight = weight;
+    }
+
+    public String name;
+    public int weight;
+
+    @Override
+    public String toString() {
+        return "name-" + name + " weight-" + weight;
+    }
+}
+```
+
 
 
