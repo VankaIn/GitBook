@@ -474,6 +474,7 @@ public class MainActivity extends Activity{
 
 > 貌似上面的真的还有一个地方不靠谱，每次 newcat 的时候也传入一个比较器，所以想了一下，比较器应该是在 DataSort 类的时候传入去的，所以修改成这样
 
+* 程序设计4
 
 ```
 /**
