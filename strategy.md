@@ -486,8 +486,8 @@ public class MainActivity extends Activity{
         CatNameComparator nameComparator = new CatNameComparator();
         //数组创建
         Cat kitty = new Cat("kitty", 3);//kitty，3kg，1year
-        Cat tony = new Cat("tony", 5, nameComparator);//tony， 5kg， 2year
-        Cat himit = new Cat("himit2", 6, nameComparator);//himt, 6kg 3year
+        Cat tony = new Cat("tony", 5);//tony， 5kg， 2year
+        Cat himit = new Cat("himit2", 6);//himt, 6kg 3year
 
         Cat a[] = {kitty, tony, himit};
         //数组排序
