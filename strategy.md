@@ -382,6 +382,7 @@ public class Cat implements Comparable<Cat>{
 
     @Override
     public int compareTo(Cat o) {
+        //修改这里，根据传入来的策略来比较
         return comparator.compare(this, o);
     }
 }
