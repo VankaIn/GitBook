@@ -181,7 +181,7 @@ public interface Comparable<T> {
 /**
  * Created by liangjunjie on 16/6/16.
  * 排序工具
- * DataSort 不在依赖 Cat 了，改为依赖接口（抽象类）Comparable
+ * DataSort 不在依赖 Cat 了，改为依赖接口（抽象）Comparable。
  */
 public class DataSorter {
     public static void sort(Comparable[] a) {
