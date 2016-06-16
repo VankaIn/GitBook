@@ -157,4 +157,9 @@ public class DataSorter {
 
 > 结果：
 > ![](0E5FE2C3-6DAA-464F-84D7-199E9D459F74.png)
+功能的确实现了。<br>
+但出现缺点：
+
+
+---
 
