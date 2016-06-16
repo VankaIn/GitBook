@@ -317,4 +317,6 @@ public class Cat implements Comparable<Cat>{
 
 
 
-但是问题来了
+但是还不够完善啊，虽然我不用动 DataSort类了，但我还是要动 Cat 类啊，有无方法，DataSort 类和 Cat 类都不用动呢？
+
+###场景4.现在我修改对猫的其他属性排序，对我们封装好的东西不用动（不用动 Cat，不用动 DataSort），只需要修改我们的 main 就可以。
