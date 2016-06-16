@@ -170,6 +170,7 @@ public class DataSorter {
 ```
 /**
  * Created by liangjunjie on 16/6/16.
+ * 增加一个 Comparable接口
  */
 public interface Comparable<T> {
     int compareTo(T o);
