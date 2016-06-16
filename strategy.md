@@ -78,7 +78,6 @@ public class DataSorter {
 
 * 程序设计2
 
-
 ```
 public class MainActivity extends Activity{
     TextView tv;
