@@ -460,6 +460,9 @@ public class MainActivity extends Activity{
 > 如果要进行 name 的长度进行排序呢？那只要改 main 方法，如下：
 
 ```
+/**
+ * Created by liangjunjie on 16/6/16.
+ */
 public class MainActivity extends Activity{
     TextView tv;
 
@@ -468,10 +471,11 @@ public class MainActivity extends Activity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         tv = (TextView) findViewById(R.id.tv_content);
+        CatNameComparator nameComparator = new CatNameComparator();
         //数组创建
-        Cat kitty = new Cat("kitty", 3);//kitty，3kg，1year
-        Cat tony = new Cat("tony", 5);//tony， 5kg， 2year
-        Cat himit = new Cat("himit2", 6);//himt, 6kg 3year
+        Cat kitty = new Cat("kitty", 3, nameComparator);//kitty，3kg，1year
+        Cat tony = new Cat("tony", 5, nameComparator);//tony， 5kg， 2year
+        Cat himit = new Cat("himit2", 6, nameComparator);//himt, 6kg 3year
 
         Cat a[] = {kitty, tony, himit};
         //数组排序
