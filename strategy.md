@@ -5,26 +5,32 @@
 * 程序设计1
 
 ```
-/**
- * Created by liangjunjie on 16/6/16.
- */
 public class MainActivity extends Activity{
     TextView tv;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         tv = (TextView) findViewById(R.id.tv_content);
-        int a[] = {1,2,6,4,3,2};
+        //数组创建
+        Integer a[] = {1,2,6,4,3,2};
+        //数组排序
         DataSorter.sort(a);
+        //数组输出到界面
         tv.setText(toStringArray(a));
     }
 
 
-    public String toStringArray(int[] a) {
+    /**
+     * 把数组转成一段字符串输出到界面
+     * @param a
+     * @return  一段排好序的字符串
+     */
+    public String toStringArray(Integer[] a) {
         String str = "";
         for(int i=0; i<a.length; i++) {
-            str += a[i] + ",";
+            str += a[i].toString() + ",";
         }
         return str;
     }
