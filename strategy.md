@@ -204,3 +204,34 @@ public class DataSorter {
 }
 ```
 
+```
+/**
+ * Created by liangjunjie on 16/6/16.
+ */
+public class Cat implements Comparable<Cat>{
+    public Cat(String name, int weight) {
+        this.name = name;
+        this.weight = weight;
+    }
+
+    public String name;
+    public int weight;
+
+    @Override
+    public String toString() {
+        return "name-" + name + " weight-" + weight;
+    }
+
+    @Override
+    public int compareTo(Cat o) {
+        if(this.weight > o.weight) {
+            return 1;
+        } else if(this.weight < o.weight) {
+            return -1;
+        }  else {
+            return 0;
+        }
+    }
+}
+```
+
