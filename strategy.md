@@ -402,8 +402,29 @@ public class Cat implements Comparable<Cat>{
  * Created by liangjunjie on 16/6/16.
  * 排序工具
  */
- //比较器 - 默认是体重比较器
-    public Comparator comparator = new CatWeightComparator();
+/**
+ * Created by liangjunjie on 16/6/16.
+ * 排序工具
+ */
+public class DataSorter {
+    public static void sort(Comparable[] a, Comparator comparator) {
+        for(int i=a.length; i>0; i--) {
+            for(int j=0; j<i-1; j++) {
+                Comparable o1 = a[j];
+                Comparable o2 = a[j+1];
+                if(comparator.compare(o1, o2) >= 1) {
+                    swap(a, j , j+1);
+                }
+            }
+        }
+    }
+
+    private static void swap(Comparable[] a, int x, int y) {
+        Comparable temp = a[x];
+        a[x] = a[y];
+        a[y] = temp;
+    }
+}
 ```
 
 ```
