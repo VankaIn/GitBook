@@ -261,16 +261,17 @@ public class Cat implements Comparable<Cat>{
         return "name-" + name + " weight-" + weight;
     }
 
-    @Override
+      @Override
     public int compareTo(Cat o) {
-        if(this.weight > o.weight) {
+        if(this.name.length() > o.name.length()) {
             return 1;
-        } else if(this.weight < o.weight) {
+        } else if(this.name.length() < o.name.length()) {
             return -1;
         }  else {
             return 0;
         }
     }
+
 }
 ```
 
