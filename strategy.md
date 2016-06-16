@@ -323,3 +323,12 @@ public class Cat implements Comparable<Cat>{
 
 * 程序设计4。给猫添加一个 --- 比较器。
 
+```
+/**
+ * Created by liangjunjie on 16/6/16.
+ */
+public interface Comparator {
+    int compare(Object o1, Object o2);
+}
+```
+
