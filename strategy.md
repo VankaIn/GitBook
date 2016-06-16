@@ -156,7 +156,7 @@ public class DataSorter {
 ```
 
 > 结果：
-> 
+> ![](93C2786F-F11E-44AE-ADE4-7FD52121C84C.png)
 功能的确实现了。<br>
 但出现缺点：<br>
 1.要修改更换排序的东西，就必须修改 DataSort 类，违背了设计原则的：***《开闭原则》*** - 对扩展开放，对修改关闭。<br>
@@ -164,4 +164,4 @@ public class DataSorter {
 
 ---
 
-###
+###场景3.现在我需要对猫的名字的长度进行排序，就是 实现结果为：（himit2 ,kitty, tomy）
