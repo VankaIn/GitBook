@@ -131,6 +131,28 @@ public class Cat {
     }
 }
 ```
+```
+/**
+ * Created by liangjunjie on 16/6/16.
+ * 排序工具
+ */
+public class DataSorter {
+    public static void sort(Cat[] a) {
+        for(int i=a.length; i>0; i--) {
+            for(int j=0; j<i-1; j++) {
+                if(((Cat)a[j]).weight > ((Cat)a[j+1]).weight) {
+                    swap(a, j , j+1);
+                }
+            }
+        }
+    }
 
+    private static void swap(Cat[] a, Integer x, Integer y) {
+        Cat temp = a[x];
+        a[x] = a[y];
+        a[y] = temp;
+    }
+}
+```
 
 
