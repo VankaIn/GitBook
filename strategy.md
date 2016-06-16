@@ -7,6 +7,33 @@
 ```
 /**
  * Created by liangjunjie on 16/6/16.
+ */
+public class MainActivity extends Activity{
+    TextView tv;
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        tv = (TextView) findViewById(R.id.tv_content);
+        int a[] = {1,2,6,4,3,2};
+        DataSorter.sort(a);
+        tv.setText(toStringArray(a));
+    }
+
+
+    public String toStringArray(int[] a) {
+        String str = "";
+        for(int i=0; i<a.length; i++) {
+            str += a[i] + ",";
+        }
+        return str;
+    }
+}
+```
+
+```
+/**
+ * Created by liangjunjie on 16/6/16.
  * 排序工具
  */
 public class DataSorter {
