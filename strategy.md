@@ -455,3 +455,44 @@ public class MainActivity extends Activity{
 }
 ```
 
+
+> 这样子，默认就是按照了 weight 进行排序了<br>
+> 如果要进行 name 的长度进行排序呢？那只要改 main 方法，如下：
+
+```
+public class MainActivity extends Activity{
+    TextView tv;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        tv = (TextView) findViewById(R.id.tv_content);
+        //数组创建
+        Cat kitty = new Cat("kitty", 3);//kitty，3kg，1year
+        Cat tony = new Cat("tony", 5);//tony， 5kg， 2year
+        Cat himit = new Cat("himit2", 6);//himt, 6kg 3year
+
+        Cat a[] = {kitty, tony, himit};
+        //数组排序
+        DataSorter.sort(a);
+        //数组输出到界面
+        tv.setText(toStringArray(a));
+    }
+
+
+    /**
+     * 把数组转成一段字符串输出到界面
+     * @param a
+     * @return  一段排好序的字符串
+     */
+    public String toStringArray(Cat[] a) {
+        String str = "";
+        for(int i=0; i<a.length; i++) {
+            str += a[i].toString() + "\n";
+        }
+        return str;
+    }
+}
+```
+
