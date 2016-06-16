@@ -516,7 +516,15 @@ public class MainActivity extends Activity{
     }
 }
 ```
-
+```
+/**
+ * Created by liangjunjie on 16/6/16.
+ * 比较器
+ */
+public interface Comparator<T> {
+    int compare(T o1, T o2);
+}
+```
 ```
 /**
  * Created by liangjunjie on 16/6/16.
