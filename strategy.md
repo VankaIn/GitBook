@@ -468,7 +468,12 @@ public class MainActivity extends Activity{
 
 > 这样子，默认就是按照了 weight 进行排序了<br>
 > 结果：![](E0C9B690-98C0-4D55-8D8F-85AF2D9B1076.png)
-> 如果要进行 name 的长度进行排序呢？那只要改 main 方法，如下：
+
+
+
+
+> 貌似上面的真的还有一个地方不靠谱，每次 newcat 的时候也传入一个比较器，所以想了一下，比较器应该是在 DataSort 类的时候传入去的，所以修改成这样
+
 
 ```
 /**
