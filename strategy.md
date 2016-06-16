@@ -467,7 +467,7 @@ public class MainActivity extends Activity{
 
 
 > 这样子，默认就是按照了 weight 进行排序了<br>
-> 结果：![](EB1441FB-8E1E-48E5-9EC2-B19381358C52.png)
+> 结果：![](E0C9B690-98C0-4D55-8D8F-85AF2D9B1076.png)
 > 如果要进行 name 的长度进行排序呢？那只要改 main 方法，如下：
 
 ```
