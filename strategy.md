@@ -168,6 +168,7 @@ public class DataSorter {
 * 程序设计3
 
 ```
+//main 不用动
 public class MainActivity extends Activity{
     TextView tv;
 
