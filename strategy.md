@@ -488,6 +488,47 @@ public class MainActivity extends Activity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         tv = (TextView) findViewById(R.id.tv_content);
+        CatNameComparator nameComparator = new CatNameComparator();
+        //数组创建
+        Cat kitty = new Cat("kitty", 3);//kitty，3kg，1year
+        Cat tony = new Cat("tony", 5);//tony， 5kg， 2year
+        Cat himit = new Cat("himit2", 6);//himt, 6kg 3year
+
+        Cat a[] = {kitty, tony, himit};
+        //数组排序
+        DataSorter.sort(a, nameComparator);
+        //数组输出到界面
+        tv.setText(toStringArray(a));
+    }
+
+
+    /**
+     * 把数组转成一段字符串输出到界面
+     * @param a
+     * @return  一段排好序的字符串
+     */
+    public String toStringArray(Cat[] a) {
+        String str = "";
+        for(int i=0; i<a.length; i++) {
+            str += a[i].toString() + "\n";
+        }
+        return str;
+    }
+}
+```
+
+```
+/**
+ * Created by liangjunjie on 16/6/16.
+ */
+public class MainActivity extends Activity{
+    TextView tv;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        tv = (TextView) findViewById(R.id.tv_content);
         //修改这里
         CatNameComparator nameComparator = new CatNameComparator();
         //数组创建
