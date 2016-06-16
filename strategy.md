@@ -369,8 +369,6 @@ public class CatWeightComparator implements Comparator<Cat> {
 public class Cat implements Comparable<Cat>{
     public String name;
     public int weight;
-    //比较器 - 默认是体重比较器
-    public Comparator comparator = new CatWeightComparator();
 
     public Cat(String name, int weight, Comparator comparator) {
         this.name = name;
@@ -405,6 +403,8 @@ public class Cat implements Comparable<Cat>{
  * 排序工具
  */
 public class DataSorter {
+ //比较器 - 默认是体重比较器
+    public Comparator comparator = new CatWeightComparator();
     public static void sort(Comparable[] a) {
         for(int i=a.length; i>0; i--) {
             for(int j=0; j<i-1; j++) {
@@ -491,7 +491,7 @@ public class MainActivity extends Activity{
 
         Cat a[] = {kitty, tony, himit};
         //数组排序
-        DataSorter.sort(a);
+        DataSorter.sort(a, nameComparator);
         //数组输出到界面
         tv.setText(toStringArray(a));
     }
