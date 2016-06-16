@@ -275,7 +275,7 @@ public class Cat implements Comparable<Cat>{
 ```
 
 > 结果：
-![](EB1441FB-8E1E-48E5-9EC2-B19381358C52.png)
+![](E0C9B690-98C0-4D55-8D8F-85AF2D9B1076.png)
 
 
 
@@ -317,4 +317,4 @@ public class Cat implements Comparable<Cat>{
 
 
 
-
+但是问题来了
