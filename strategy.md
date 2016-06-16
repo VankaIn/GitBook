@@ -526,6 +526,27 @@ public interface Comparator<T> {
 }
 ```
 ```
+public class Cat{
+    public String name;
+    public int weight;
+
+
+
+    public Cat(String name, int weight) {
+        this.name = name;
+        this.weight = weight;
+    }
+
+
+    @Override
+    public String toString() {
+        return "name-" + name + " weight-" + weight;
+    }
+
+}
+```
+
+```
 /**
  * Created by liangjunjie on 16/6/16.
  */
