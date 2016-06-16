@@ -564,7 +564,31 @@ public class CatNameComparator implements Comparator<Cat> {
 }
 ```
 
+```
+/**
+ * Created by liangjunjie on 16/6/16.
+ * 排序工具
+ */
+public class  DataSorter {
+    public static <T extends Comparable<? super T>> void sort(T[] a, Comparator<T> comparator) {
+        for(int i=a.length; i>0; i--) {
+            for(int j=0; j<i-1; j++) {
+                T o1 = a[j];
+                T o2 = a[j+1];
+                if(comparator.compare(o1, o2) >= 1) {
+                    swap(a, j , j+1);
+                }
+            }
+        }
+    }
 
+    private static <T extends Comparable<? super T>> void swap(T[] a, int x, int y) {
+        T temp = a[x];
+        a[x] = a[y];
+        a[y] = temp;
+    }
+}
+```
 
 ```
 /**
