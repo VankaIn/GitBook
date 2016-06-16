@@ -352,5 +352,31 @@ public class CatWeightComparator implements Comparator<Cat> {
 }
 ```
 
+```
+/**
+ * Created by liangjunjie on 16/6/16.
+ */
+public class Cat implements Comparable<Cat>{
+    public String name;
+    public int weight;
+    //比较器 - 默认是体重比较器
+    public Comparator comparator = new CatWeightComparator();
 
+    public Cat(String name, int weight) {
+        this.name = name;
+        this.weight = weight;
+    }
+
+
+    @Override
+    public String toString() {
+        return "name-" + name + " weight-" + weight;
+    }
+
+    @Override
+    public int compareTo(Cat o) {
+        return comparator.compare(this, o);
+    }
+}
+```
 
